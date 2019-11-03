@@ -1,5 +1,5 @@
 {
-  "name": "react-awesome-query-builder",
+  "name": "@ukrbublik/react-awesome-query-builder",
   "version": "1.0.3",
   "description": "User-friendly query builder for React. Demo: https://ukrbublik.github.io/react-awesome-query-builder",
   "keywords": [
@@ -29,7 +29,10 @@
   "readme": "README.md",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ukrbublik/react-awesome-query-builder.git"
+    "url": "git://github.com/ukrbublik/react-awesome-query-builder.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "author": "Denis Oblogin <ukrbublik@gmail.com> (https://github.com/ukrbublik)",
   "contributors": [
